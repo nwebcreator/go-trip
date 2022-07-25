@@ -175,6 +175,31 @@ body {
 	color: var(--orange);
 }
 
+/* Header content */
+
+.header__badge {
+	margin-bottom: 7px;
+	display: inline-block;
+	padding: 11px 30px;
+	font-size: 18px;
+	font-weight: 500;
+
+	background: rgba(255, 255, 255, 0.25);
+	border-radius: 15px;
+}
+
+.header__title {
+	margin-bottom: 30px;
+	font-size: 55px;
+}
+
+.header__text {
+	margin-bottom: 68px;
+	font-size: 25px;
+	font-weight: 700;
+	color: rgba(255, 255, 255, 0.5);
+}
+
 /* Buttons */
 
 .btn {
