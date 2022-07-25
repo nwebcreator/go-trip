@@ -5,7 +5,7 @@
 	--container-width: 1270px;
 	--container-padding: 15px;
 	--secondary: rgba(15, 31, 28, 0.5);
-	--orange: #ff7c4e;
+    --orange: #FF7C4E;
 }
 
 body {
@@ -32,6 +32,11 @@ body {
 	padding-right: calc((100% - var(--container-width)) / 2 + var(--container-padding));
 }
 
+.block {
+	height: 200px;
+	background-color: darkseagreen;
+}
+
 /* Header */
 
 .header {
@@ -40,6 +45,10 @@ body {
 	min-height: 940px;
 	padding-top: 44px;
 	background: linear-gradient(132.05deg, #428e5f -17.38%, #112120 78.4%), #204434;
+	color: #fff;
+}
+
+.header a {
 	color: #fff;
 }
 
@@ -83,21 +92,7 @@ body {
 	width: 894px;
 	height: 940px;
 
-	pointer-events: none;
-}
-
-.header__img::after {
-	content: '';
-
-	position: absolute;
-	top: -30px;
-	right: -50px;
-
-	width: 830px;
-	height: 622px;
-
-	background-image: url('./../img/header/header-elements.svg');
-	pointer-events: none;
+    pointer-events: none;
 }
 
 /* Nav */
@@ -115,6 +110,8 @@ body {
 	font-size: 15px;
 	font-weight: 500;
 }
+
+
 
 .nav__list a {
 	position: relative;
@@ -138,12 +135,12 @@ body {
 
 .nav__list.nav__list--footer a.active::after,
 .nav__list.nav__list--footer a:hover::after {
-	display: none;
+    display: none;
 }
 
 .nav__list.nav__list--footer a.active,
 .nav__list.nav__list--footer a:hover {
-	color: var(--orange);
+    color: var(--orange);
 }
 
 .nav__login {
@@ -153,10 +150,6 @@ body {
 
 	font-size: 15px;
 	font-weight: 500;
-}
-
-.nav__toggle {
-	display: none;
 }
 
 /* Logo */
@@ -172,7 +165,7 @@ body {
 }
 
 .logo--footer {
-	color: var(--orange);
+    color: var(--orange);
 }
 
 /* Header content */
@@ -200,12 +193,50 @@ body {
 	color: rgba(255, 255, 255, 0.5);
 }
 
+/* Destinations */
+
+.destinations {
+	overflow-x: hidden;
+	padding: 96px 0 100px;
+}
+
+.destinations__row {
+	display: flex;
+	column-gap: 50px;
+}
+
+.destinations__content {
+	max-width: 456px;
+}
+
+.destinations__slider {
+	width: 1110px;
+	flex-shrink: 0;
+}
+
+.destinations__title {
+	margin-bottom: 15px;
+	font-size: 55px;
+	font-weight: 600;
+}
+
+.destinations__title span {
+	font-size: 30px;
+}
+
+.destinations__text {
+	margin-bottom: 60px;
+	font-size: 25px;
+	font-weight: 500;
+	color: var(--secondary);
+}
+
 /* Buttons */
 
 .btn {
 	display: inline-block;
 	padding: 25px 45px;
-	color: #fff !important;
+    color: #fff !important;
 
 	background: linear-gradient(129.54deg, #ff7b4e 15.57%, #ff584e 95.03%);
 	border-radius: 27px;
@@ -225,15 +256,15 @@ body {
 }
 
 .btn--login {
-	padding: 13px 44px;
-	font-size: 15px;
-	font-weight: 500;
-	border-radius: 100px;
+    padding: 13px 44px;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 100px;
 }
 
 .btn--header {
-	padding: 27px 48px;
-	font-size: 25px;
+    padding: 27px 48px;
+    font-size: 25px;
 }
 
 .btn--subscribe {
