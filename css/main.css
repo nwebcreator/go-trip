@@ -354,3 +354,46 @@ body {
 	font-size: 45px;
 	font-weight: 500;
 }
+
+/* Review */
+
+.review {
+	max-width: 490px;
+}
+
+.review__client {
+	display: flex;
+	align-items: center;
+	column-gap: 33px;
+	margin-bottom: 60px;
+}
+
+.review__client-avatar {
+	overflow: hidden;
+	width: 134px;
+	height: 134px;
+	border-radius: 50%;
+	background-color: #ff794e;
+}
+
+.review__client-desc {
+}
+
+.review__client-desc-name {
+	margin-bottom: 10px;
+	font-size: 33px;
+	font-weight: 500;
+}
+.review__client-desc-country {
+	font-size: 25px;
+	color: var(--secondary);
+}
+
+.review__text {
+	margin-bottom: 30px;
+	color: var(--secondary);
+	font-size: 22px;
+	font-weight: 500;
+}
+.review__rating {
+}
