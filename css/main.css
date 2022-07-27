@@ -325,3 +325,32 @@ body {
 	padding-right: 26px;
 	justify-content: flex-end;
 }
+
+
+/* Customers */
+
+.customers {
+	padding: 100px 0 133px;
+}
+
+.customers__row {
+	display: flex;
+	column-gap: 68px;
+}
+
+.customers__img {
+	max-width: 478px;
+}
+
+.customers__img img {
+	border-radius: 60px;
+}
+
+.customers__content {
+}
+
+.customers__title {
+	margin-bottom: 35px;
+	font-size: 45px;
+	font-weight: 500;
+}
