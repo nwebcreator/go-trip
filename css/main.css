@@ -397,3 +397,57 @@ body {
 }
 .review__rating {
 }
+
+/* CTA */
+
+.cta {
+	padding: 100px 0;
+}
+
+.cta__plate {
+    position: relative;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+
+	min-height: 580px;
+	padding: 40px 15px;
+
+	background-color: #fff;
+	border-radius: 60px;
+}
+
+.cta__plate::before,
+.cta__plate::after {
+    position: absolute;
+    width: 63px;
+    height: 83px;
+
+    content: "";
+}
+
+.cta__plate::before {
+    left: 74px;
+    bottom: 56px;
+    background-image: url("./../img/cta/cta-el-01.svg");
+}
+
+.cta__plate::after {
+    top: 74px;
+    right: 80px;
+    background-image: url("./../img/cta/cta-el-02.svg");
+}
+
+.cta__title {
+	font-size: 45px;
+	font-weight: 500;
+	margin-bottom: 30px;
+}
+
+.cta__text {
+    margin-bottom: 60px;
+    font-size: 30px;
+    color: var(--secondary);
+}
