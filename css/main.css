@@ -32,11 +32,6 @@ body {
 	padding-right: calc((100% - var(--container-width)) / 2 + var(--container-padding));
 }
 
-.block {
-	height: 200px;
-	background-color: darkseagreen;
-}
-
 /* Header */
 
 .header {
